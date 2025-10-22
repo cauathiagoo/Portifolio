@@ -1,0 +1,475 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="icon" type="image/x-icon" href="/images/Caua_logo.png" />
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+        />
+        <link rel="stylesheet" href="css/style.css" />
+        <script
+            src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.1/anime.min.js"
+            integrity="sha512-z4OUqw38qNLpn1libAN9BsoDx6nbNFio5lA6CuTp9NlK83b89hgyCVq+N5FdBJptINztxn1Z3SaKSKUS5UP60Q=="
+            crossorigin="anonymous"
+            referrerpolicy="no-referrer"
+        ></script>
+        <script defer src="js/app.js"></script>
+        <title>Cauã Thiago - Web Developer</title>
+        <meta
+            name="description"
+            content="Sou Cauã Thiago, desenvolvedor web front-end Sou de Pernanbuco-BRASIL. Gosto de construir sites bonitos e responsivos com código limpo e elegante. Explore meu portfólio e entre em contato comigo para colaboração."
+        />
+        <meta
+            name="keywords"
+            content="Cauã, desenvolvedor web, desenvolvedor front-end, Brasil, portfólio, colaboração"
+        />
+    </head>
+    <body>
+        <div id="preloader">
+            <svg
+                id="animatedLogo"
+                viewBox="0 0 100 100"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+                xmlns:xlink="http://www.w3.org/1999/xlink"
+            >
+                <g>
+                    <g
+                        id="letter"
+                        transform="translate(34, 33)"
+                        fill="#64FFDA"
+                        style="opacity: 0"
+                        font-family="Inter, sans-serif"
+                        font-size="50"
+                        font-weight="700"
+                        letter-spacing="4.16666603"
+                    >
+                        <text>
+                            <tspan x="1.14" y="32">C</tspan>
+                        </text>
+                    </g>
+                    <path
+                        stroke="#64FFDA"
+                        stroke-width="4"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        d=" M 50, 5
+                            L 10, 30
+                            L 10, 70
+                            L 50, 92
+                            L 95, 70
+                            L 95, 30 z"
+                    />
+                </g>
+            </svg>
+        </div> 
+        <div class="scroll scroll-left">
+            <span>scroll down</span>
+            <i class="fa-solid fa-arrow-down"></i>
+        </div>
+        <div class="scroll scroll-right">
+            <span>scroll down</span>
+            <i class="fa-solid fa-arrow-down"></i>
+        </div>
+        <ul class="media-links">
+            <li>
+                <a
+                    href="https://www.frontendmentor.io/profile/cauathiago"
+                    target="_blank"
+                    rel="noopener"
+                    aria-label="Frontend Mentor"
+                    ><i class="fa-solid fa-code"></i
+                ></a>
+            </li>
+            <li>
+                <a
+                    href="https://github.com/cauathiago"
+                    target="_blank"
+                    rel="noopener"
+                    aria-label="GitHub"
+                    ><i class="fa-brands fa-github"></i
+                ></a>
+            </li>
+            <li>
+                <a
+                    href="https://twitter.com/cauathiago_dev"
+                    target="_blank"
+                    rel="noopener"
+                    aria-label="Twitter"
+                    ><i class="fa-brands fa-twitter"></i
+                ></a>
+            </li>
+            <li>
+                <a
+                    href="https://www.linkedin.com/in/cauathiago"
+                    target="_blank"
+                    rel="noopener"
+                    aria-label="LinkedIn"
+                    ><i class="fa-brands fa-linkedin-in"></i
+                ></a>
+            </li>
+        </ul>
+        <a class="gmail" href="mailto:cauathiago.developer@gmail.com"
+            >cauathiago.developer@gmail.com</a
+        >
+        <a href="#" class="go-top" aria-label="scroll back to top"
+            ><i class="fa-brands fa-space-awesome"></i
+        ></a>
+
+        <nav> 
+            <a href="#" class="nav__logo">
+                    <img src="images/Caua_logo.png" />
+            </a>
+            <ul class="nav__list">
+                <li><a href="#about">Sobre mim</a></li>
+                <li><a href="#work">Projetos</a></li>
+                <li><a href="#contact">Contato</a></li>
+                <li>
+                    <a
+                        href="Docs/caua-resumo.pdf"
+                        target="_blank"
+                        class="resume"
+                        >Donwload CV</a
+                    >
+                </li>
+            </ul>
+            <div class="nav__menu">
+                <div class="hamburger"></div>
+            </div>
+        </nav>
+        <main class="container">
+            <header>
+                <div class="header__avatar">
+                    <img
+                        src="./images/avatar.svg"
+                        alt="Caua's avatar"
+                        class="header__avatar-img"
+                    />
+                    <div class="eye left-eye"></div>
+                    <div class="eye right-eye"></div>
+                    <div class="eye-lid left-eye-lid"></div>
+                    <div class="eye-lid right-eye-lid"></div>
+                </div>
+                <div class="header__text-content">
+                    <p class="header__hi">Hello World, my name is...</p>
+                    <h1>
+                        <span class="header__name">Cauã Thiago,</span
+                        ><br /><span class="header__bio">Web Developer</span>
+                    </h1>
+                    <p class="header__intro">
+                        Sou um desenvolvedor front-end. Gosto de criar sites bonitos e responsivos com código limpo, eficiente e elegante.
+                    </p>
+                    <div class="header__links">
+                        <a href="Docs/Caua-resumo.pdf" target="_blank"
+                            >Resumo</a
+                        >
+                        <a href="#work">Projetos</a>
+                    </div>
+                </div>
+            </header>
+            <div class="about" id="about">
+                <section class="about__myself translateUp">
+                    <h2>Quem eu sou?</h2>
+                    <p>
+                        Olá, meu nome é Cauã Thiago! Atualmente estou morando em Recife-PE, 
+                        sou estudante e desenvolvedor front-end com uma sede insaciável de 
+                        criar coisas incríveis online.<br /><br />Assim que descobri o desenvolvimento web, 
+                        através do meu padrasto(<a href="https://www.jeftar.com.br/" target="_blank">@Jeftar</a>), Eu sabia que tinha encontrado minha paixão! 
+                        estudando a um pouco mais de 2 anos, aprendi muito e com o tempo construí algumas coisas 
+                        incríveis!<br /><br />Mas o que realmente me entusiasma, é a oportunidade de colaborar com pessoas positivas
+                        e afins para criar algo verdadeiramente alucinante. Então, você está pronto para unir forças e dar vida às nossas 
+                        ideias mais malucas?
+                        <a href="#contact">Então vamos!</a>
+                    </p>
+                </section>
+                <section class="about__skill translateUp">
+                    <h2>Tecnologias e frameworks que aprendi</h2>
+                    <ul class="about__skill-list">
+                        <li><i class="fa-brands fa-html5"></i></li>
+                        <li>
+                            <i class="fa-brands fa-css3-alt"></i>
+                        </li>
+                        <li><i class="fa-brands fa-js"></i></li>
+                        <li><i class="fa-brands fa-react"></i></li>
+                        <li><i class="fa-brands fa-node"></i></li>
+                    </ul>
+                </section>
+            </div>
+            <div class="work" id="work">
+                <h2 class="translateUp">Alguns dos meus trabalhos mais recentes</h2>
+                <!-- Projeto 1 -->
+                <div class="project-section">
+                    <div class="project translateUp">
+                        <a
+                            href="https://cauathiago.github.io/Appvilla"
+                            target="_blank"
+                            rel="noopener"
+                            class="project__image"
+                        >
+                            <img src="./images/appvilla.png" alt="Appvilla" />
+                        </a>
+                        <section class="project__text">
+                            <span class="project__text-type">Landing Page</span>
+                            <a
+                                href="https://cauathiago.github.io/Appvilla/"
+                                target="_blank"
+                                rel="noopener"
+                                class="project__text-name"
+                                >Appvilla</a
+                            >
+                            <p class="project__text-info">
+                                Appvilla é uma landing page de várias páginas feita com HTML, 
+                                CSS e JavaScript puro. Este site é totalmente responsivo e compatível 
+                                com vários navegadores. Ele também tem algumas animações legais em scoll, 
+                                controle deslizante de carrossel, acordeão, etc.
+                            </p>
+                            <div class="project__text-lang">
+                                <span>Html</span>
+                                <span>CSS</span>
+                                <span>JavaScript</span>
+                            </div>
+                            <div class="project__text-links">
+                                <a
+                                    href="https://github.com/cauathiago/Appvilla"
+                                    target="_blank"
+                                    rel="noopener"
+                                    aria-label="Github code link"
+                                    ><i class="fa-brands fa-github"></i
+                                ></a>
+                                <a
+                                    href="https://cauathiago.github.io/Appvilla/"
+                                    target="_blank"
+                                    rel="noopener"
+                                    aria-label="website link"
+                                    ><i class="fa-solid fa-eye"></i
+                                ></a>
+                            </div> 
+                        </section>
+                    </div>
+                <!-- Projeto 2 -->
+                    <div class="project translateUp">
+                        <a
+                            href="https://am-todo-app.netlify.app/"
+                            target="_blank"
+                            rel="noopener"
+                            class="project__image"
+                        >
+                            <img src="./images/todo-app.png" alt="Todo App" />
+                        </a>
+                        <section class="project__text">
+                            <span class="project__text-type">Web App</span>
+                            <a
+                                href="https://am-todo-app.netlify.app/"
+                                target="_blank"
+                                rel="noopener"
+                                class="project__text-name"
+                                >Todo App</a
+                            >
+                            <p class="project__text-info">
+                                Um aplicativo de lista de tarefas, todo responsivo, baseado em React para 
+                                adicionar, excluir e concluir tarefas, com opções de filtro, 
+                                e modo claro/escuro.
+                            </p>
+                            <div class="project__text-lang">
+                                <span>Html</span>
+                                <span>CSS</span>
+                                <span>JavaScript</span>
+                                <span>ReactJS</span>
+                            </div>
+                            <div class="project__text-links">
+                                <a
+                                    href="https://github.com/cauathiago/todo-app-main"
+                                    target="_blank"
+                                    rel="noopener"
+                                    aria-label="Github code link"
+                                    ><i class="fa-brands fa-github"></i
+                                ></a>
+                                <a
+                                    href="https://am-todo-app.netlify.app/"
+                                    target="_blank"
+                                    rel="noopener"
+                                    aria-label="website link"
+                                    ><i class="fa-solid fa-eye"></i
+                                ></a>
+                            </div>
+                        </section>
+                    </div>
+                <!-- Projeto 3 -->
+                    <div class="project translateUp">
+                        <a
+                            href="https://cauathiago.github.io/desafios-front-end/pleno/02/index.html"
+                            target="_blank"
+                            rel="noopener"
+                            class="project__image"
+                        >
+                            <img
+                                src="./images/shortly.jpg"
+                                alt="Shortly: URL Shortener"
+                            />
+                        </a>
+                        <section class="project__text">
+                            <span class="project__text-type">API</span>
+                            <a
+                                href="https://cauathiago.github.io/desafios-front-end/pleno/02/index.html"
+                                target="_blank"
+                                rel="noopener"
+                                class="project__text-name"
+                                >Shortly: URL Shortener</a
+                            >
+                            <p class="project__text-info">
+                                Este é um encurtador de URL responsivo com API de shortcode. 
+                                Os recursos incluem encurtamento de URLs válidos, funcionalidade de 
+                                cópia para área de transferência e mensagens de erro.
+                            </p>
+                            <div class="project__text-lang">
+                                <span>Html</span>
+                                <span>CSS</span>
+                                <span>JavaScript</span>
+                                <span>Shrtcode API</span>
+                            </div>
+                            <div class="project__text-links">
+                                <a
+                                    href="https://github.com/Cauathiago/desafios-front-end/tree/main/pleno/02"
+                                    target="_blank"
+                                    rel="noopener"
+                                    aria-label="Github code link"
+                                    ><i class="fa-brands fa-github"></i
+                                ></a>
+                                <a
+                                    href="https://cauathiago.github.io/desafios-front-end/pleno/02/index.html"
+                                    target="_blank"
+                                    rel="noopener"
+                                    aria-label="website link"
+                                    ><i class="fa-solid fa-eye"></i
+                                ></a>
+                            </div>
+                        </section>
+                    </div>
+                <!-- Projeto 4 -->
+                    <div class="project translateUp">
+                        <a
+                            href="https://cauathiago-memory-game.netlify.app/"
+                            target="_blank"
+                            rel="noopener"
+                            class="project__image"
+                        >
+                            <img
+                                src="./images/memory.png"
+                                alt="Memory game"
+                            />
+                        </a>
+                        <section class="project__text">
+                            <span class="project__text-type">Game</span>
+                            <a
+                                href="https://cauathiago-memory-game.netlify.app/"
+                                target="_blank"
+                                rel="noopener"
+                                class="project__text-name"
+                                >Memory Game</a
+                            >
+                            <p class="project__text-info">
+                                Esse jogo da memória foi um projeto legal para colocar em 
+                                prática meu Design Responsivo e também minhas habilidades em Javascript e React. Podendo jogar 
+                                até 4 jogadores, espero que você se divirta assim como eu no desenvolvimento. :)
+                            </p>
+                            <div class="project__text-lang">
+                                <span>Html</span>
+                                <span>CSS</span>
+                                <span>JavaScript</span>
+                                <span>ReactJS</span>
+                            </div>
+                            <div class="project__text-links">
+                                <a
+                                    href="https://github.com/Cauathiago/memory-game"
+                                    target="_blank"
+                                    rel="noopener"
+                                    aria-label="Github code link"
+                                    ><i class="fa-brands fa-github"></i
+                                ></a>
+                                <a
+                                    href="https://cauathiago-memory-game.netlify.app/"
+                                    target="_blank"
+                                    rel="noopener"
+                                    aria-label="website link"
+                                    ><i class="fa-solid fa-eye"></i
+                                ></a>
+                            </div> 
+                        </section>     
+                    </div>                    
+                </div>
+                <a
+                    href="https://github.com/cauathiago?tab=repositories"
+                    target="_blank"
+                    rel="noopener"
+                    class="work__view-more translateUp"
+                    >Ver Mais</a
+                >
+            </div>
+        </main>
+        <footer>
+            <section class="contact translateUp" id="contact">
+                <h2>Entrar em contato</h2>
+                <p>
+                    Tem uma proposta ou quer dizer olá? Envie um e-mail, clicando no botão, logo abaixo.<br> 
+                    Responderei o mais rápido que puder!
+                </p>
+                <a
+                    href="mailto:cauathiagosilva.developer@gmail.com"
+                    aria-label="send email"
+                    ><i class="fa-solid fa-paper-plane"></i
+                ></a>
+            </section>
+            <ul class="footer__links translateUp">
+                <li>
+                    <a
+                        href="https://www.frontendmentor.io/profile/cauathiago"
+                        target="_blank"
+                        rel="noopener"
+                        aria-label="Frontend Mentor"
+                        ><i class="fa-solid fa-code"></i
+                    ></a>
+                </li>
+                <li>
+                    <a
+                        href="https://github.com/cauathiago"
+                        target="_blank"
+                        rel="noopener"
+                        aria-label="GitHub"
+                        ><i class="fa-brands fa-github"></i
+                    ></a>
+                </li>
+                <li>
+                    <a
+                        href="https://twitter.com/cauathiago_dev"
+                        target="_blank"
+                        rel="noopener"
+                        aria-label="Twitter"
+                        ><i class="fa-brands fa-twitter"></i
+                    ></a>
+                </li>
+                <li>
+                    <a 
+                        href="https://instagram.com/cauathiagoo" 
+                        target="_blank" rel="noopener" 
+                        aria-label="instagram"
+                        ><i class="fa-brands fa-instagram"></i
+                    ></a>
+                </li>
+                <li>
+                    <a
+                        href="https://www.linkedin.com/in/cauathiago/"
+                        target="_blank"
+                        rel="noopener"
+                        aria-label="LinkedIn"
+                        ><i class="fa-brands fa-linkedin-in"></i
+                    ></a>
+                </li>
+            </ul>
+            <p class="footer__text">
+                copyright© 2024 <a href="https://github.com/Cauathiago" target="_blank">Cauã Thiago</a> | All rights reserved.
+            </p>
+        </footer>
+    </body>
+</html>
